@@ -21,7 +21,7 @@ python3 code/certify.py dataset = "cifar10" base_classifier = {"path to the save
 
 # To generate plots like below
 
-![plot](./robust_acc tradeoff.jpg)
+![plot](./robust_acc_tradeoff.jpg)
 
 ```
 python3 code/analyze.py --Gauss_smoothing_file {"path_to_gaussian_smoothing_output_file"} --Unif_smoothing_file {"path_to_uniform_smoothing_output_file"} --Gauss_legend "Gaussian Smoothing $\sigma = 0.25$" --Unif_legend "Uniform Smoothing $\sigma = 0.25$" --outfile {"path to output image"}
