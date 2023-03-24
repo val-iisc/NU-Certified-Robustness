@@ -12,8 +12,8 @@ import argparse
 sns.set()
 
 parser = argparse.ArgumentParser(description='Generating plots')
-parser.add_argument('--Gauss_smoothing_file', type = str, help = 'file containing result from Gaussian smoothing')
-parser.add_argument('--Unif_smoothing_file', type = str, help = 'file containing result from Uniform smoothing')
+parser.add_argument('--Gauss_smoothing_file', type = str, help = 'path to file containing result from Gaussian smoothing')
+parser.add_argument('--Unif_smoothing_file', type = str, help = 'path to file containing result from Uniform smoothing')
 parser.add_argument('--Gauss_legend', type = str, help = 'legend for Gaussian smoothing plot')
 parser.add_argument('--Unif legend', type = str, help = 'legend for unif smoothing plot')
 parser.add_argument('--outfile', type=str, help='path to save the plot')
