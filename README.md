@@ -14,6 +14,11 @@ Make model certifiably robust against both $l_1$ and $l_2$ norm perturbations si
 python3 code/train.py dataset = "cifar10" arch = "cifar_resnet110" outdir = {path_to_output_location} --epochs 300 --batch 400 --noise_sd_gauss 1.00 --noise_sd_unif 0.866 --sim_reg 3 --beta 2 --log_file_name {"filename"} --checkpoint_name {"checkpoint_name"}
 ```
 
+# Prediction
+```
+python3 code/predict.py dataset = "cifar10" base_classifier = {"path to the saved trained model"} noise_sd_gauss = 1.00 noise_sd_unif = 1.16 outfile = {"path_to_output_file_location"} --skip 1 --N 100
+```
+
 # Certification
 ```
 python3 code/certify.py dataset = "cifar10" base_classifier = {"path to the saved trained model"} noise_sd_gauss = 1.00 noise_sd_unif = 1.16 outfile = {"path_to_output_file_location"} --skip 1 --start 0
