@@ -36,11 +36,14 @@ python3 code/analyze.py --Gauss_smoothing_file {"path_to_gaussian_smoothing_outp
 ![plot](./SOTA_result.jpg)
 
 ## Citation
-@inproceedings{jain2023dart,
-  title={DART: Diversify-Aggregate-Repeat Training Improves Generalization of Neural Networks},
-  author={Jain, Samyak and Addepalli, Sravanti and Sahu, Pawan Kumar and Dey, Priyam and Babu, R Venkatesh},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={16048--16059},
-  year={2023}
+```
+@InProceedings{Nandi_2023_CVPR,
+    author    = {Nandi, Soumalya and Addepalli, Sravanti and Rangwani, Harsh and Babu, R. Venkatesh},
+    title     = {Certified Adversarial Robustness Within Multiple Perturbation Bounds},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2023},
+    pages     = {2297-2304}
 }
+```
 
